@@ -1,0 +1,56 @@
+Peer-graded Assignment Presentation
+========================================================
+author: Yatin Koul
+date: 16th August 2020
+autosize: true
+
+Final Project Submission
+========================================================
+<br/>
+The main objective of this capstone project was to create a word prediction algorithm and build an interface on the basis of that algorithm.
+
+The main objectice of this capstone project was to :
+
+1. A Shiny app that takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.
+
+2. A slide deck consisting of no more than 5 slides created with R Studio Presenter pitching your algorithm.
+
+Word Prediction Application
+========================================================
+<br/>
+Below is the link to the application:
+
+[https://yatink.shinyapps.io/Word-Prediction-App/](https://yatink.shinyapps.io/Word-Prediction-App/)
+
+-Data Used: Coursera-SwiftKey<br/>
+-Software: RStudio<br/>
+-Libraries: shiny, tm, stringr, dplyr, data.table<br/>
+
+Algorithm (N-grams)
+========================================================
+<br/>
+<ol>
+<li>Read the data from the Coursera-SwiftKey dataset
+<li>Format and clean the data
+<li>Create ngram models using cleaned data
+<li>Predict the next words using n-gram models
+<ol/>
+
+Algorithm (Shiny Application)
+========================================================
+<br/>
+<ol>
+<li>Select type of dataset (News or Twitter)
+<li>Input the text
+<li>Predict the next word using n-gram algorithm
+<li>Output is the predicted word
+<ol/>
+
+Acknowledgement
+========================================================
+<br/>
+I would like to thank Roger Peng and Johns Hopkins University for curating such a comprehensive course. I would also like to thank Coursera for providing a platform which enables people to enroll in such excellent courses. 
+<br/>
+
+Thanks,<br/>
+[Yatin Koul](https://www.linkedin.com/in/yatin-koul/)
